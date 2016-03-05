@@ -1,4 +1,4 @@
-/* Eric Meyer's CSS Reset */
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, 
 sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, 
 footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -13,8 +13,6 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* End of Eric Meyer's CSS Reset */
-
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
 	display: block;
 }
@@ -161,6 +159,57 @@ body {
 	font-size: 42px;
 	margin-bottom: 15px;
 }
+
+
+
+
+/* Top ----------------------------- */
+.c_top {
+	width: 100%;
+	min-width: 1000px;
+	height: 360px;
+	background: url('i/bg-top.jpg') center top no-repeat;
+	text-align: center;
+	font-size: 0;
+}
+.c_top .inb {
+	padding-top: 34px;
+}
+.c_top-item {
+	display: inline-block;
+	width: 310px;
+	height: 295px;
+	margin: 0 10px;
+}
+.c_top-item__head {
+	display: block;
+	width: 271px;
+	height: 42px;
+	margin: 0 0 5px 35px;
+}
+.c_top-item__icon {
+	display: block;
+	width: 310px;
+	height: 245px;
+}
+
+.odnok .c_top-item__head {background: url('i/bg-top-head-odnok.png') 0 0 no-repeat;}
+.odnok:hover .c_top-item__head {background: url('i/bg-top-head-odnok.png') 0 -42px no-repeat;}
+.odnok .c_top-item__icon {background: url('i/bg-top-odnok.png') no-repeat;}
+.odnok:hover .c_top-item__icon {background: url('i/bg-top-odnok.png') 0 -245px no-repeat;}
+
+.dvok .c_top-item__head {background: url('i/bg-top-head-dvok.png') 0 0 no-repeat;}
+.dvok:hover .c_top-item__head {background: url('i/bg-top-head-dvok.png') 0 -42px no-repeat;}
+.dvok .c_top-item__icon {background: url('i/bg-top-dvok.png') no-repeat;}
+.dvok:hover .c_top-item__icon {background: url('i/bg-top-dvok.png') 0 -245px no-repeat;}
+
+.trik .c_top-item__head {background: url('i/bg-top-head-trik.png') 0 0 no-repeat;}
+.trik:hover .c_top-item__head {background: url('i/bg-top-head-trik.png') 0 -42px no-repeat;}
+.trik .c_top-item__icon {background: url('i/bg-top-trik.png') no-repeat;}
+.trik:hover .c_top-item__icon {background: url('i/bg-top-trik.png') 0 -245px no-repeat;}
+
+
+
 
 
 
